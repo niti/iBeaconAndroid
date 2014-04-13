@@ -1,11 +1,13 @@
 package com.radiusnetworks.ibeaconreference;
 
+import com.parse.ParseUser;
 import com.radiusnetworks.ibeacon.IBeaconConsumer;
 import com.radiusnetworks.ibeacon.IBeaconManager;
 import com.radiusnetworks.ibeacon.MonitorNotifier;
 import com.radiusnetworks.ibeacon.Region;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.RemoteException;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -14,19 +16,57 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
-
+import android.widget.TextView;
 
 public class MonitoringActivity extends Activity implements IBeaconConsumer {
 	protected static final String TAG = "MonitoringActivity";
+    Button logout;
+    private static int TIME_OUT = 3000;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.d(TAG, "oncreate");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_monitoring);
-		verifyBluetooth();
-		iBeaconManager.bind(this);
+
+        // Retrieve current user from Parse.com
+        ParseUser currentUser = ParseUser.getCurrentUser();
+
+        // Convert currentUser into String
+        String struser = currentUser.getUsername().toString();
+
+        // Locate TextView in welcome.xml
+        TextView txtuser = (TextView) findViewById(R.id.txtuser);
+
+        // Set the currentUser String into TextView
+        txtuser.setText("You are logged in as " + struser);
+
+        // Locate Button in welcome.xml
+        logout = (Button) findViewById(R.id.logout);
+
+        // Logout Button Click Listener
+        logout.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View arg0) {
+                // Logout current user
+                ParseUser.logOut();
+                finish();
+            }
+        });
+
+        verifyBluetooth();
+        iBeaconManager.bind(this);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent myIntent = new Intent(MonitoringActivity.this, RangingActivity.class);
+                startActivity(myIntent);
+                finish();
+            }
+        }, TIME_OUT);
 	}
 
 	public void onRangingClicked(View view) {
@@ -103,6 +143,7 @@ public class MonitoringActivity extends Activity implements IBeaconConsumer {
 			iBeaconManager.setBackgroundMode(this, false);
 	}
 
+    //want updates somewhere else instead of to display...
 	private void logToDisplay(final String line) {
 		runOnUiThread(new Runnable() {
 			public void run() {

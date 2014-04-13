@@ -22,4 +22,5 @@ dependencies {
     compile project(':androidIBeaconLibrary')
     compile project(':androidIBeaconLibrary')
     compile 'com.android.support:support-v4:+'
+    compile files('libs/Parse-1.4.3.jar')
 }

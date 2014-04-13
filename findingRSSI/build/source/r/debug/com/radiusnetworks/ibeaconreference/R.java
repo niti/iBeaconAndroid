@@ -18,24 +18,34 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int Button01=0x7f080009;
         public static final int Major=0x7f080000;
         public static final int UUID=0x7f080002;
-        public static final int action_settings=0x7f08000b;
+        public static final int action_settings=0x7f080013;
         public static final int distance=0x7f080004;
-        public static final int list=0x7f08000a;
+        public static final int list=0x7f08000c;
+        public static final int login=0x7f080011;
+        public static final int logout=0x7f08000b;
         public static final int major=0x7f080001;
         public static final int minor=0x7f080003;
-        public static final int monitoringText=0x7f080007;
+        public static final int monitoringText=0x7f080009;
+        public static final int password=0x7f080010;
         public static final int proximity=0x7f080005;
-        public static final int range_button=0x7f080008;
+        public static final int range_button=0x7f08000a;
         public static final int rssi=0x7f080006;
+        public static final int signup=0x7f080012;
+        public static final int txtpassword=0x7f08000f;
+        public static final int txtuser=0x7f080008;
+        public static final int txtusername=0x7f08000d;
+        public static final int txtwelcome=0x7f080007;
+        public static final int username=0x7f08000e;
     }
     public static final class layout {
         public static final int activity_background=0x7f030000;
         public static final int activity_beacon_specs=0x7f030001;
         public static final int activity_monitoring=0x7f030002;
         public static final int activity_ranging=0x7f030003;
+        public static final int loginsignup=0x7f030004;
+        public static final int welcome=0x7f030005;
     }
     public static final class menu {
         public static final int beacon_specs=0x7f070000;
@@ -45,14 +55,24 @@ public final class R {
         public static final int main=0x7f070004;
     }
     public static final class string {
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int hello_world=0x7f050002;
-        public static final int title_activity_beacon_specs=0x7f050003;
-        public static final int title_activity_dig__beacons=0x7f050004;
-        public static final int title_activity_list_test=0x7f050005;
-        public static final int title_activity_list_view=0x7f050006;
-        public static final int title_activity_main=0x7f050007;
+        public static final int LoginBtn=0x7f050000;
+        public static final int LogoutBtn=0x7f050001;
+        public static final int Password=0x7f050002;
+        public static final int SignupBtn=0x7f050003;
+        public static final int Username=0x7f050004;
+        public static final int Welcome=0x7f050005;
+        public static final int action_settings=0x7f050006;
+        public static final int app_name=0x7f050007;
+        public static final int hello=0x7f050008;
+        public static final int hello_world=0x7f050009;
+        public static final int text=0x7f05000a;
+        public static final int title_activity_authenticated=0x7f05000b;
+        public static final int title_activity_beacon_specs=0x7f05000c;
+        public static final int title_activity_dig__beacons=0x7f05000d;
+        public static final int title_activity_list_test=0x7f05000e;
+        public static final int title_activity_list_view=0x7f05000f;
+        public static final int title_activity_main=0x7f050010;
+        public static final int title_activity_main_activity2=0x7f050011;
     }
     public static final class style {
         /** 

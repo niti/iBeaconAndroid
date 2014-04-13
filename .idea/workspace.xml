@@ -22,20 +22,120 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.radiusnetworks.ibeaconreference" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fd68567-4269-4a5d-b158-f2a9a22d3f82" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\iBeaconAndroid\findingRSSI\build\pre-dexed\debug\classes-82001fec9aac6a0d0e29c96884dbdb928cb4652a.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\iBeaconAndroid\findingRSSI\build\pre-dexed\debug\classes-e7919a45034ba7976c4c12d227926c0e3f9e4a7e.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\iBeaconAndroid\findingRSSI\build\pre-dexed\debug\support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/androidIBeaconLibrary/build/source/buildConfig/debug/com/radiusnetworks/ibeacon/BuildConfig.java" afterPath="$PROJECT_DIR$/androidIBeaconLibrary/build/source/buildConfig/debug/com/radiusnetworks/ibeacon/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/androidIBeaconLibrary/build/source/buildConfig/release/com/radiusnetworks/ibeacon/BuildConfig.java" afterPath="$PROJECT_DIR$/androidIBeaconLibrary/build/source/buildConfig/release/com/radiusnetworks/ibeacon/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/build/source/buildConfig/debug/com/radiusnetworks/ibeaconreference/BuildConfig.java" afterPath="$PROJECT_DIR$/findingRSSI/build/source/buildConfig/debug/com/radiusnetworks/ibeaconreference/BuildConfig.java" />
+    <list default="true" id="7fd68567-4269-4a5d-b158-f2a9a22d3f82" name="Default" comment="Added everything, probably, except the Android Manifest.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/resources/inherit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/CountCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/CountCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/DeleteCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/DeleteCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/FindCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/FindCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/FunctionCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/FunctionCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/GetCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/GetCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/GetDataCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/GetDataCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/LocationCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/LocationCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/LogInCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/LogInCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/LoginSignupActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3.jar.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/Parse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/Parse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseACL.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseACL.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseAnalytics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseAnalytics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseAnonymousUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseAnonymousUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/ParseApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseClassName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseClassName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseCloud.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseCloud.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseFacebookUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseFacebookUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseFile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseFile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseGeoPoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseGeoPoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseImageView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseImageView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseInstallation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseInstallation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParsePush.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParsePush.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseQuery.CachePolicy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseQuery.CachePolicy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseQuery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseQuery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseQueryAdapter.OnQueryLoadListener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseQueryAdapter.OnQueryLoadListener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseQueryAdapter.QueryFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseQueryAdapter.QueryFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseQueryAdapter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseQueryAdapter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseRelation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseRelation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseRole.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseRole.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseTwitterUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseTwitterUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ParseUser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ParseUser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Parse_1_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/ProgressCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/ProgressCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/PushService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/PushService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/RefreshCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/RefreshCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/RequestPasswordResetCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/RequestPasswordResetCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/SaveCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/SaveCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/SendCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/SendCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/SignUpCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/SignUpCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/Welcome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/allclasses-noframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/deprecated-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/index-all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/src/main/res/layout/loginsignup.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/overview-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/package-use.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/serialized-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/libs/third_party_licenses.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findingRSSI/src/main/res/layout/welcome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/findingRSSI/build/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/findingRSSI/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java" afterPath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/build/source/r/debug/com/radiusnetworks/ibeaconreference/R.java" afterPath="$PROJECT_DIR$/findingRSSI/build/source/r/debug/com/radiusnetworks/ibeaconreference/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java" afterPath="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml" afterPath="$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/androidIBeaconLibrary/androidIBeaconLibrary.iml" afterPath="$PROJECT_DIR$/androidIBeaconLibrary/androidIBeaconLibrary.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/build.gradle" afterPath="$PROJECT_DIR$/findingRSSI/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/findingRSSI.iml" afterPath="$PROJECT_DIR$/findingRSSI/findingRSSI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findingRSSI/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/findingRSSI/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="android_radius_networks.iws" />
@@ -100,91 +200,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/values/strings.xml">
+      <file leaf-file-name="ParseApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/ParseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
+            <state line="8" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="578">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RangingActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-              <folding />
+            <state line="35" column="46" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1071">
+              <folding>
+                <element signature="e#679#697#0" expanded="true" />
+                <element signature="e#826#844#0" expanded="true" />
+                <element signature="e#1318#1336#0" expanded="true" />
+                <element signature="e#1482#1500#0" expanded="true" />
+                <element signature="e#1706#1724#0" expanded="true" />
+                <element signature="e#1931#1968#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackgroundActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/BackgroundActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="11" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_background.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_background.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_beacon_specs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_beacon_specs.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_monitoring.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeaconSpecs.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/BeaconSpecs.java">
+      <file leaf-file-name="RangingActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+            <state line="38" column="34" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.46801347" vertical-offset="150" max-vertical-offset="2006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parse.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/Parse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2482">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginsignup.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/loginsignup.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSignupActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/LoginSignupActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="69" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-12.923077" vertical-offset="344" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -193,9 +278,36 @@
       <file leaf-file-name="MonitoringActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
+            <state line="64" column="70" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="3196">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1617#1816#0" expanded="true" />
+                <element signature="e#1805#1806#0" expanded="true" />
+                <element signature="e#1917#2172#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Welcome.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/Welcome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/welcome.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="32" selection-start="807" selection-end="807" vertical-scroll-proportion="-6.4" vertical-offset="231" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1774,9 +1886,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java" />
         <option value="$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_beacon_specs.xml" />
         <option value="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/BeaconSpecs.java" />
+        <option value="$PROJECT_DIR$/findingRSSI/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/ParseApplication.java" />
+        <option value="$PROJECT_DIR$/findingRSSI/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/LoginSignupActivity.java" />
+        <option value="$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml" />
+        <option value="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java" />
         <option value="$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java" />
       </list>
     </option>
@@ -1890,6 +2007,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iBeaconAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iBeaconAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="findingRSSI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iBeaconAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iBeaconAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="findingRSSI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iBeaconAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iBeaconAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="findingRSSI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1914,6 +2117,13 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="bb0da7ee" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus-S" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\iBeaconAndroid\findingRSSI\src\main\java\com\radiusnetworks\ibeaconreference" />
+      <recent name="D:\iBeaconAndroid\findingRSSI\src\main\res\layout" />
+      <recent name="D:\iBeaconAndroid\findingRSSI\libs" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.findingRSSI">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -2097,6 +2307,11 @@
       <created>1397332880048</created>
       <updated>1397332880048</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working Example">
+      <created>1397366171603</created>
+      <updated>1397366171603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2106,6 +2321,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2114,9 +2330,9 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884616" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3300153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2128,7 +2344,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2145,6 +2360,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Working Example" />
+    <MESSAGE value="Added everything, probably, except the Android Manifest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added everything, probably, except the Android Manifest." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2213,7 +2431,10 @@
     <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <folding />
+          <folding>
+            <element signature="e#458#475#0" expanded="true" />
+            <element signature="e#1364#1383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2230,23 +2451,21 @@
     <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1617#1816#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1917#2172#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/Specifics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml">
-      <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_ranging.xml">
@@ -2257,13 +2476,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/values/dimens.xml">
@@ -2307,23 +2519,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java">
+    <entry file="file://$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/com/parse/class-use/Parse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java">
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/loginsignup.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.5232198" vertical-offset="18" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/libs/Parse-1.4.3-javadoc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="260" selection-end="260" vertical-scroll-proportion="0.47887325" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+        <state line="35" column="46" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#679#697#0" expanded="true" />
+            <element signature="e#826#844#0" expanded="true" />
+            <element signature="e#1318#1336#0" expanded="true" />
+            <element signature="e#1482#1500#0" expanded="true" />
+            <element signature="e#1706#1724#0" expanded="true" />
+            <element signature="e#1931#1968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/Welcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/welcome.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="807" selection-end="807" vertical-scroll-proportion="-6.4" vertical-offset="231" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/LoginSignupActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="69" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-12.923077" vertical-offset="344" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/ParseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/res/layout/activity_monitoring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-12.12" vertical-offset="377" max-vertical-offset="833">
+          <folding>
+            <element signature="e#458#475#0" expanded="true" />
+            <element signature="e#1364#1383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/MonitoringActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="70" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="3196">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1617#1816#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1917#2172#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findingRSSI/src/main/java/com/radiusnetworks/ibeaconreference/RangingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="34" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.46801347" vertical-offset="150" max-vertical-offset="2006">
           <folding />
         </state>
       </provider>

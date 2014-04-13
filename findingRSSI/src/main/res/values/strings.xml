@@ -10,4 +10,17 @@
     <string name="title_activity_beacon_specs">BeaconSpecs</string>
     <string name="title_activity_list_test">ListTestActivity</string>
 
+    <string name="text">Placeholder</string>
+    <string name="title_activity_authenticated">Authenticated</string>
+    <string name="title_activity_main_activity2">MainActivity</string>
+
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+
+    <string name="LoginBtn">Login</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="LogoutBtn">Log Out</string>
+    <string name="Welcome">Welcome!</string>
+
 </resources>

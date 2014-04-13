@@ -34,7 +34,7 @@ public class RangingActivity extends Activity implements IBeaconConsumer {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_ranging);
+		setContentView(R.layout.activity_monitoring);
 
 		iBeaconManager.bind(this);
 	}
@@ -94,7 +94,7 @@ public class RangingActivity extends Activity implements IBeaconConsumer {
 			public void run() {
 				map.put("UUID: " + uuid + " Major: " + major + " Minor: "
 						+ minor, proximity + "," + RSSI + "," + distance);
-				listview();
+				//listview();
 
 			}
 		});

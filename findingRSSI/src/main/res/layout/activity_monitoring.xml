@@ -4,13 +4,29 @@
     android:layout_height="match_parent"
     tools:context=".MonitoringActivity" >
 
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Welcome"
+        android:paddingTop="50dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true" />
+
     <EditText
         android:id="@+id/monitoringText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/range_button"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="150dp"
         android:ems="10"
         android:gravity="left|top"
         android:inputType="textMultiLine" >
@@ -18,31 +34,11 @@
         <requestFocus />
     </EditText>
 
-    <TextView
-        android:id="@+id/Major"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/range_button"
-        android:layout_marginTop="17dp"
-        android:text="Monitoring Events:" />
-
     <Button
-        android:id="@+id/Button01"
+        android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:onClick="onRangingClicked"
-        android:text="Start Ranging" />
 
-    <Button
-        android:id="@+id/range_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/Button01"
-        android:onClick="onBackgroundClicked"
-        android:text="Background Mode" />
+        android:text="@string/LogoutBtn" />
     
 </RelativeLayout>
