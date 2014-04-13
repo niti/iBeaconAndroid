@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidIBeaconLibrary/androidIBeaconLibrary.iml" filepath="$PROJECT_DIR$/androidIBeaconLibrary/androidIBeaconLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android_radius_networks1.iml" filepath="$PROJECT_DIR$/android_radius_networks1.iml" />
       <module fileurl="file://$PROJECT_DIR$/findingRSSI/findingRSSI.iml" filepath="$PROJECT_DIR$/findingRSSI/findingRSSI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iBeaconAndroid.iml" filepath="$PROJECT_DIR$/iBeaconAndroid.iml" />
     </modules>
   </component>
 </project>
