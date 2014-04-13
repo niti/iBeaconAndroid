@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidIBeaconLibrary/androidIBeaconLibrary.iml" filepath="$PROJECT_DIR$/androidIBeaconLibrary/androidIBeaconLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_radius_networks1.iml" filepath="$PROJECT_DIR$/android_radius_networks1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findingRSSI/findingRSSI.iml" filepath="$PROJECT_DIR$/findingRSSI/findingRSSI.iml" />
+    </modules>
+  </component>
+</project>
+

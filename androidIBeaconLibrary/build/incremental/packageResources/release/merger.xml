@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/androidIBeaconLibrary/src/main/res" />
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/androidIBeaconLibrary/build/res/rs/release" />
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/androidIBeaconLibrary/build/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/androidIBeaconLibrary/src/release/res" />
+    </dataSet>
+
+</merger>

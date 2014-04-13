@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="unspecified" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/build/exploded-aar/android_radius_networks1/androidIBeaconLibrary/unspecified/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_background"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/layout/activity_background.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_beacon_specs"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/layout/activity_beacon_specs.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_monitoring"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/layout/activity_monitoring.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_ranging"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/layout/activity_ranging.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="beacon_specs"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/menu/beacon_specs.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="dig__beacons"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/menu/dig__beacons.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="list_test"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/menu/list_test.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="list_view"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/menu/list_view.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="title_activity_list_view" >LIstView
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_dig__beacons" >Dig_Beacons
+                </string>
+                <string name="title_activity_main" >MainActivity
+                </string>
+                <string name="app_name" >IBeaconReference
+                </string>
+                <string name="title_activity_beacon_specs" >BeaconSpecs
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_list_test" >ListTestActivity
+                </string>
+            </file>
+            <file
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/build/res/rs/debug" />
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/findingRSSI/src/debug/res" />
+    </dataSet>
+
+</merger>

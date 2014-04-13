@@ -1,0 +1,4 @@
+include ':androidIBeaconLibrary'
+include ':androidIBeaconLibrary'
+include ':androidIBeaconLibrary'
+include ':findingRSSI'

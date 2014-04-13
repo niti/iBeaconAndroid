@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/androidIBeaconLibrary/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/WKF547/AndroidStudioProjects/android_radius_networks1/androidIBeaconLibrary/src/debug/assets" />
+    </dataSet>
+
+</merger>
